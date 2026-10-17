@@ -177,6 +177,52 @@ export const projects = [
       "Applicant records",
     ],
   },
+  
+  {
+    id: "ethixwebIndia",
+    number: "03",
+    type: "FULL-STACK · WEB APP",
+    title: "ETHIX-WEB INDIA",
+    subtitle: "India-Focused Digital Experience",
+    description:
+      "A responsive, full-stack website redesign with dedicated Home, Services, About, and Contact pages. It connects customer enquiries to a backend and database, with a protected admin dashboard for managing leads.",
+    problem:
+      "Businesses need a professional online presence and a reliable way to collect and manage customer enquiries.",
+    approach: [
+      "Built responsive pages using React, Vite, React Router, and CSS.",
+      "Connected the contact form to an Express REST API with request validation.",
+      "Integrated Supabase and PostgreSQL for persistent enquiry records.",
+      "Implemented protected admin workflows for viewing, filtering, updating, and deleting leads.",
+    ],
+    contribution:
+      "Developed the responsive website experience and integrated enquiry submission and administration workflows with backend APIs and database services.",
+    stack: [
+      "React.js",
+      "Vite",
+      "React Router",
+      "HTML5",
+      "CSS3",
+      "Node.js",
+      "Express.js",
+      "REST APIs",
+      "Supabase",
+      "PostgreSQL",
+    ],
+    icon: Layers3,
+    tone: "orange",
+    href: projectLinks.ethixwebIndia,
+    repository:
+      "https://github.com/Beastaleast/Ethixweb-Indi",
+    href: "https://ethixweb-indi.vercel.app/",
+    architecture: [
+      "Website visitor",
+      "React + Vite frontend",
+      "Express REST API",
+      "Supabase Auth + PostgreSQL",
+      "Protected admin dashboard",
+    ],
+  },
+
 ];
 
 export const experience = [
